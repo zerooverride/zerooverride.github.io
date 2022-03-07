@@ -12,7 +12,7 @@ function loaded() {
 window.onload = loaded;
 
 function setup() {
-    var canvas = createCanvas(400, 400);
+    var canvas = createCanvas(windowWidth, windowHeight);
     canvas.parent('sketch');
     // set default mouse-press color
     fillColor = color("red");
@@ -21,23 +21,21 @@ function setup() {
 var saved = []
 
 function draw() {
+    // always start with the saved state
+    // clear everything
     clear();
+    // draw whats saved
     for(var i = 0; i < saved.length; i++){
         fill(fillColor);
         ellipse(saved[i][0], saved[i][1], 80, 80)
     }
+
+    // show an empty circle whevere the mouse is
     fill(0,0,0,0);
     var el = ellipse(mouseX, mouseY, 80, 80);
+
+    // if the mouse gets pressed, save that location
     if (mouseIsPressed) {
-        fill(fillColor);
-        ellipse(mouseX, mouseY, 80, 80)
         saved.push([mouseX, mouseY])
-    } else {
     }
-    //if (mouseIsPressed) {
-    //    fill(fillColor);
-    //} else {
-    //    fill(255);
-    //    els += el;
-    //}
 }

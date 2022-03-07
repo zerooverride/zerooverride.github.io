@@ -5,6 +5,7 @@
     Here we go
     <button id = "find-me">Show my location</button><br/>
     <button id = "track-me">Track my location</button><br/>
+    <button id = "beep">Beep</button><br/>
     <p id = "status"></p>
     <a id = "map-link" target="_blank"></a>
     
@@ -33,6 +34,7 @@
     
     
         function geoFindMe() {
+            beep();
             mapLink.href = '';
             mapLink.textContent = '';
     
@@ -48,10 +50,11 @@
     
         document.querySelector('#find-me').addEventListener('click', geoFindMe);
         document.querySelector('#track-me').addEventListener('click', trackMe);
-    
+        document.querySelector('#beep').addEventListener('click', beep);
         const context = new window.AudioContext();
     
         function beep() {
+            console.log("beep2");
             const successNoise = context.createOscillator();
             successNoise.frequency = "600";
             successNoise.type = "sine";
@@ -79,6 +82,7 @@
                 .connect(context.destination);
             successNoise.start();
             successNoise.stop(context.currentTime + 0.2);
+            console.log("ended");
         }
     </script>
     </body>
