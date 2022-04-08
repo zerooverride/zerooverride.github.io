@@ -228,7 +228,7 @@
     "coords": [210.11111111111111, 71.11111111111111],
     "connections": [
       { "destination": "Fort Totten", "lines": ["red"], "drawn": true },
-      { "destination": "Silver Sprint", "lines": ["red"], "drawn": true }
+      { "destination": "Silver Spring", "lines": ["red"], "drawn": true }
     ],
     "transfer": false,
     "visible": null
@@ -438,7 +438,7 @@
         "lines": ["green", "yellow"],
         "drawn": true
       },
-      { "destination": "L'Enfant", "lines": ["green", "yellow"], "drawn": true }
+      { "destination": "L'Enfant Plaza", "lines": ["green", "yellow"], "drawn": true }
     ],
     "transfer": false,
     "visible": null
@@ -670,7 +670,7 @@
     "name": "Vienna/Fairfax-GMU",
     "coords": [26.555555555555557, 177.33333333333334],
     "connections": [
-      { "destination": "Dunn Loring", "lines": ["orange"], "drawn": true }
+      { "destination": "Dunn Loring-Merrifield", "lines": ["orange"], "drawn": true }
     ],
     "transfer": false,
     "visible": null
@@ -684,7 +684,7 @@
         "lines": ["orange"],
         "drawn": true
       },
-      { "destination": "West Falls Church", "lines": ["orange"], "drawn": true }
+      { "destination": "West Falls Church-VT/UVA", "lines": ["orange"], "drawn": true }
     ],
     "transfer": false,
     "visible": null
@@ -1081,7 +1081,8 @@
     "name": "Van Dorn Street",
     "coords": [133.66666666666666, 320.44444444444446],
     "connections": [
-      { "destination": "King St-Old Town", "lines": ["blue"], "drawn": true }
+      { "destination": "King St-Old Town", "lines": ["blue"], "drawn": true },
+      { "destination": "Franconia Springfield", "lines": ["blue"], "drawn": true }
     ],
     "transfer": false,
     "visible": null
