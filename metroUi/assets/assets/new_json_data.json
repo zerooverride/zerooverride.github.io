@@ -1,0 +1,2781 @@
+[
+  {
+    "name": "Shady Grove", 
+    "coords": [
+      67.44444444444444, 
+      31.555555555555557
+    ], 
+    "connections": [
+      {
+        "destination": "Rockville", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.1199273249, 
+      -77.1646273343
+    ]
+  }, 
+  {
+    "name": "Rockville", 
+    "coords": [
+      77.22222222222223, 
+      41.333333333333336
+    ], 
+    "connections": [
+      {
+        "destination": "Shady Grove", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Twinbrook", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0843216075, 
+      -77.1461253392
+    ]
+  }, 
+  {
+    "name": "Twinbrook", 
+    "coords": [
+      87.0, 
+      51.55555555555556
+    ], 
+    "connections": [
+      {
+        "destination": "Rockville", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "White Flint", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0624676517, 
+      -77.1208179517
+    ]
+  }, 
+  {
+    "name": "White Flint", 
+    "coords": [
+      97.22222222222223, 
+      61.333333333333336
+    ], 
+    "connections": [
+      {
+        "destination": "Twinbrook", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Grosvenor-Strathmore", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0481513573, 
+      -77.112829859
+    ]
+  }, 
+  {
+    "name": "Grosvenor-Strathmore", 
+    "coords": [
+      107.0, 
+      71.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "White Flint", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Medical Center", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [
+      39.02926895,
+      -77.10384972
+    ]
+  }, 
+  {
+    "name": "Medical Center", 
+    "coords": [
+      116.77777777777777, 
+      81.33333333333333
+    ], 
+    "connections": [
+      {
+        "destination": "Grosvenor-Strathmore", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Bethesda", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0000564843, 
+      -77.0969522905
+    ]
+  }, 
+  {
+    "name": "Bethesda", 
+    "coords": [
+      127.0, 
+      91.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Medical Center", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Friendship Heights", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9843936603, 
+      -77.0941291922
+    ]
+  }, 
+  {
+    "name": "Friendship Heights", 
+    "coords": [
+      135.88888888888889, 
+      100.44444444444444
+    ], 
+    "connections": [
+      {
+        "destination": "Bethesda", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Tenleytown-AU", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9594838736, 
+      -77.084995805
+    ]
+  }, 
+  {
+    "name": "Tenleytown-AU", 
+    "coords": [
+      143.0, 
+      105.33333333333333
+    ], 
+    "connections": [
+      {
+        "destination": "Friendship Heights", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Van Ness-UDC", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon":[38.9488514351,-77.0795873255]
+  }, 
+  {
+    "name": "Van Ness-UDC", 
+    "coords": [
+      151.88888888888889, 
+      106.66666666666667
+    ], 
+    "connections": [
+      {
+        "destination": "Tenleytown-AU", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Cleveland Park", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.9432652883,-77.0629861805]
+  }, 
+  {
+    "name": "Cleveland Park", 
+    "coords": [
+      157.66666666666666, 
+      112.44444444444444
+    ], 
+    "connections": [
+      {
+        "destination": "Van Ness-UDC", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Woodley Park-Zoo/Adams Morgan", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9347628908, 
+      -77.0580425191
+    ]
+  }, 
+  {
+    "name": "Woodley Park-Zoo/Adams Morgan", 
+    "coords": [
+      164.77777777777777, 
+      119.55555555555556
+    ], 
+    "connections": [
+      {
+        "destination": "Cleveland Park", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Dupont Circle", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.9250851371,-77.0524180207]
+  }, 
+  {
+    "name": "Dupont Circle", 
+    "coords": [
+      171.88888888888889, 
+      126.66666666666667
+    ], 
+    "connections": [
+      {
+        "destination": "Woodley Park-Zoo/Adams Morgan", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Farragut North", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9095980575, 
+      -77.0434143597
+    ]
+  }, 
+  {
+    "name": "Farragut North", 
+    "coords": [
+      177.66666666666666, 
+      135.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Dupont Circle", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Metro Center", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": false
+      }, 
+      {
+        "destination": "FN-MC", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9032019462, 
+      -77.0397008272
+    ]
+  }, 
+  {
+    "name": "FN-MC", 
+    "coords": [
+      177.66666666666666, 
+      165.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Farragut North", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Metro Center", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": "red",
+    "latlon": [0.0,0.0]
+  }, 
+  {
+    "name": "Judiciary Square", 
+    "coords": [
+      240.33333333333331, 
+      165.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Gallery Pl-Chinatown", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Union Station", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.8960903176, 
+      -77.0166389566
+    ]
+  }, 
+  {
+    "name": "Union Station", 
+    "coords": [
+      258.1111111111111, 
+      158.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Judiciary Square", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "NoMa-Gallaudet U", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.8977660392, 
+      -77.0074142921
+    ]
+  }, 
+  {
+    "name": "NoMa-Gallaudet U", 
+    "coords": [
+      258.1111111111111, 
+      146.66666666666666
+    ], 
+    "connections": [
+      {
+        "destination": "Union Station", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Rhode Island Ave-Brentwood", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.9070162121,-77.0030204472]
+  }, 
+  {
+    "name": "Rhode Island Ave-Brentwood", 
+    "coords": [
+      258.1111111111111, 
+      135.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "NoMa-Gallaudet U", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Brookland-CUA", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.9210596891,-76.9959369166]
+  }, 
+  {
+    "name": "Brookland-CUA", 
+    "coords": [
+      258.1111111111111, 
+      124.0
+    ], 
+    "connections": [
+      {
+        "destination": "Rhode Island Ave-Brentwood", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Fort Totten", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.9332109913,-76.9945342851]
+  }, 
+  {
+    "name": "Takoma", 
+    "coords": [
+      210.11111111111111, 
+      71.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Fort Totten", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Silver Spring", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.976078531, 
+      -77.0181766987
+    ]
+  }, 
+  {
+    "name": "Silver Spring", 
+    "coords": [
+      206.11111111111111, 
+      45.333333333333336
+    ], 
+    "connections": [
+      {
+        "destination": "Takoma", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Forest Glen", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9939493747, 
+      -77.0310178268
+    ]
+  }, 
+  {
+    "name": "Forest Glen", 
+    "coords": [
+      206.11111111111111, 
+      34.22222222222222
+    ], 
+    "connections": [
+      {
+        "destination": "Silver Spring", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Wheaton", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0149542752, 
+      -77.0429165548
+    ]
+  }, 
+  {
+    "name": "Wheaton", 
+    "coords": [
+      206.11111111111111, 
+      23.555555555555557
+    ], 
+    "connections": [
+      {
+        "destination": "Forest Glen", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Glenmont", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0375271436, 
+      -77.0501070535
+    ]
+  }, 
+  {
+    "name": "Glenmont", 
+    "coords": [
+      206.11111111111111, 
+      12.444444444444445
+    ], 
+    "connections": [
+      {
+        "destination": "Wheaton", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.0617837655, 
+      -77.0535573593
+    ]
+  }, 
+  {
+    "name": "Greenbelt", 
+    "coords": [
+      273.22222222222223, 
+      58.666666666666664
+    ], 
+    "connections": [
+      {
+        "destination": "College Park-U of Md", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      39.011036, 
+      -76.911362
+    ]
+  }, 
+  {
+    "name": "College Park-U of Md", 
+    "coords": [
+      265.22222222222223, 
+      66.66666666666667
+    ], 
+    "connections": [
+      {
+        "destination": "Greenbelt", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Prince George's Plaza", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.978523, 
+      -76.928432
+    ]
+  }, 
+  {
+    "name": "Prince George's Plaza", 
+    "coords": [
+      257.22222222222223, 
+      74.66666666666667
+    ], 
+    "connections": [
+      {
+        "destination": "College Park-U of Md", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "West Hyattsville", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.965276, 
+      -76.956182
+    ]
+  }, 
+  {
+    "name": "West Hyattsville", 
+    "coords": [
+      249.22222222222223, 
+      82.66666666666667
+    ], 
+    "connections": [
+      {
+        "destination": "Prince George's Plaza", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Fort Totten", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.954931, 
+      -76.969881
+    ]
+  }, 
+  {
+    "name": "Georgia Ave-Petworth", 
+    "coords": [
+      212.77777777777777, 
+      104.0
+    ], 
+    "connections": [
+      {
+        "destination": "Fort Totten", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Columbia Heights", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.936077, 
+      -77.024728
+    ]
+  }, 
+  {
+    "name": "Columbia Heights", 
+    "coords": [
+      202.55555555555554, 
+      114.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Georgia Ave-Petworth", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "U Street/African-Amer Civil War Memorial/Cardozo", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.928672, 
+      -77.032775
+    ]
+  }, 
+  {
+    "name": "U Street/African-Amer Civil War Memorial/Cardozo", 
+    "coords": [
+      212.77777777777777, 
+      126.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Columbia Heights", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Shaw-Howard U", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.916489, 
+      -77.028938
+    ]
+  }, 
+  {
+    "name": "Shaw-Howard U", 
+    "coords": [
+      223.0, 
+      138.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "U Street/African-Amer Civil War Memorial/Cardozo", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Mt Vernon Sq 7th St-Convention Center", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.912919, 
+      -77.022194
+    ]
+  }, 
+  {
+    "name": "Mt Vernon Sq 7th St-Convention Center", 
+    "coords": [
+      223.0, 
+      151.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Shaw-Howard U", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Gallery Pl-Chinatown", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.905604, 
+      -77.022256
+    ]
+  }, 
+  {
+    "name": "Archives-Navy Memorial-Penn Quarter", 
+    "coords": [
+      223.0, 
+      179.55555555555554
+    ], 
+    "connections": [
+      {
+        "destination": "Gallery Pl-Chinatown", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "L'Enfant Plaza", 
+        "lines": [
+          "green", 
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.893893, 
+      -77.021902
+    ]
+  }, 
+  {
+    "name": "Waterfront", 
+    "coords": [
+      237.22222222222223, 
+      236.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "L'Enfant Plaza", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Navy Yard-Ballpark", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.876221, 
+      -77.017491
+    ]
+  }, 
+  {
+    "name": "Navy Yard-Ballpark", 
+    "coords": [
+      247.44444444444446, 
+      236.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "Waterfront", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Anacostia", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.876588, 
+      -77.005086
+    ]
+  }, 
+  {
+    "name": "Anacostia", 
+    "coords": [
+      266.55555555555554, 
+      243.55555555555554
+    ], 
+    "connections": [
+      {
+        "destination": "Navy Yard-Ballpark", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Congress Heights", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.862072, 
+      -76.995648
+    ]
+  }, 
+  {
+    "name": "Congress Heights", 
+    "coords": [
+      273.22222222222223, 
+      250.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Anacostia", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Southern Avenue", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.845334, 
+      -76.98817
+    ]
+  }, 
+  {
+    "name": "Southern Avenue", 
+    "coords": [
+      283.0, 
+      256.0
+    ], 
+    "connections": [
+      {
+        "destination": "Congress Heights", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Naylor Road", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.840974, 
+      -76.97536
+    ]
+  }, 
+  {
+    "name": "Naylor Road", 
+    "coords": [
+      296.3333333333333, 
+      253.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Southern Avenue", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Suitland", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.851187, 
+      -76.956565
+    ]
+  }, 
+  {
+    "name": "Suitland", 
+    "coords": [
+      304.3333333333333, 
+      262.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Naylor Road", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Branch Ave", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.843891, 
+      -76.932022
+    ]
+  }, 
+  {
+    "name": "Branch Ave", 
+    "coords": [
+      312.77777777777777, 
+      270.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Suitland", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.826995, 
+      -76.912134
+    ]
+  }, 
+  {
+    "name": "Pentagon City", 
+    "coords": [
+      164.77777777777777, 
+      260.8888888888889
+    ], 
+    "connections": [
+      {
+        "destination": "Pentagon", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Crystal City", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.863045, 
+      -77.059507
+    ]
+  }, 
+  {
+    "name": "Crystal City", 
+    "coords": [
+      172.33333333333334, 
+      275.55555555555554
+    ], 
+    "connections": [
+      {
+        "destination": "Pentagon City", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Ronald Reagan Washington National Airport", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.85779, 
+      -77.050589
+    ]
+  }, 
+  {
+    "name": "Ronald Reagan Washington National Airport", 
+    "coords": [
+      186.55555555555554, 
+      284.0
+    ], 
+    "connections": [
+      {
+        "destination": "Crystal City", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Braddock Road", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.852985, 
+      -77.043805
+    ]
+  }, 
+  {
+    "name": "Braddock Road", 
+    "coords": [
+      187.0, 
+      294.6666666666667
+    ], 
+    "connections": [
+      {
+        "destination": "Ronald Reagan Washington National Airport", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "King St-Old Town", 
+        "lines": [
+          "yellow", 
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.814009, 
+      -77.053763
+    ]
+  }, 
+  {
+    "name": "Eisenhower Avenue", 
+    "coords": [
+      189.66666666666666, 
+      325.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "King St-Old Town", 
+        "lines": [
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Huntington", 
+        "lines": [
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.800313, 
+      -77.071173
+    ]
+  }, 
+  {
+    "name": "Huntington", 
+    "coords": [
+      189.66666666666666, 
+      341.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Eisenhower Avenue", 
+        "lines": [
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.793841, 
+      -77.075301
+    ]
+  }, 
+  {
+    "name": "Wiehle-Reston East", 
+    "coords": [
+      26.111111111111114, 
+      143.55555555555554
+    ], 
+    "connections": [
+      {
+        "destination": "Spring Hill", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.947753,-77.340179]
+  }, 
+  {
+    "name": "Spring Hill", 
+    "coords": [
+      32.77777777777778, 
+      150.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Wiehle-Reston East", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Greensboro", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.929273, 
+      -77.241988
+    ]
+  }, 
+  {
+    "name": "Greensboro", 
+    "coords": [
+      39.44444444444444, 
+      156.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "Spring Hill", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Tysons Corner", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.919749, 
+      -77.235192
+    ]
+  }, 
+  {
+    "name": "Tysons Corner", 
+    "coords": [
+      45.66666666666667, 
+      163.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Greensboro", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "McLean", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.920056, 
+      -77.223314
+    ]
+  }, 
+  {
+    "name": "McLean", 
+    "coords": [
+      52.33333333333333, 
+      169.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Tysons Corner", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "East Falls Church", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.924478, 
+      -77.210167
+    ]
+  }, 
+  {
+    "name": "Vienna/Fairfax-GMU", 
+    "coords": [
+      26.555555555555557, 
+      177.33333333333334
+    ], 
+    "connections": [
+      {
+        "destination": "Dunn Loring-Merrifield", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.877693, 
+      -77.271562
+    ]
+  }, 
+  {
+    "name": "Dunn Loring-Merrifield", 
+    "coords": [
+      39.44444444444444, 
+      177.33333333333334
+    ], 
+    "connections": [
+      {
+        "destination": "Vienna/Fairfax-GMU", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "West Falls Church-VT/UVA", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.883015, 
+      -77.228939
+    ]
+  }, 
+  {
+    "name": "West Falls Church-VT/UVA", 
+    "coords": [
+      51.888888888888886, 
+      177.33333333333334
+    ], 
+    "connections": [
+      {
+        "destination": "Dunn Loring-Merrifield", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "East Falls Church", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.90067, 
+      -77.189394
+    ]
+  }, 
+  {
+    "name": "Ballston-MU", 
+    "coords": [
+      81.22222222222223, 
+      180.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "East Falls Church", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Virginia Square-GMU", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.882071, 
+      -77.111845
+    ]
+  }, 
+  {
+    "name": "Virginia Square-GMU", 
+    "coords": [
+      90.55555555555556, 
+      180.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "Ballston-MU", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Clarendon", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.88331, 
+      -77.104267
+    ]
+  }, 
+  {
+    "name": "Clarendon", 
+    "coords": [
+      99.88888888888889, 
+      180.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "Virginia Square-GMU", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Court House", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.886373, 
+      -77.096963
+    ]
+  }, 
+  {
+    "name": "Court House", 
+    "coords": [
+      109.22222222222223, 
+      180.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "Clarendon", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Rosslyn", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.891499, 
+      -77.08391
+    ]
+  }, 
+  {
+    "name": "Foggy Bottom-GWU", 
+    "coords": [
+      156.77777777777777, 
+      148.0
+    ], 
+    "connections": [
+      {
+        "destination": "Rosslyn", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver" 
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Farragut West", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver" 
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.900599, 
+      -77.050273
+    ]
+  }, 
+  {
+    "name": "Farragut West", 
+    "coords": [
+      167.0, 
+      148.0
+    ], 
+    "connections": [
+      {
+        "destination": "Foggy Bottom-GWU", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "McPherson Square", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.901311, 
+      -77.03981
+    ]
+  }, 
+  {
+    "name": "McPherson Square", 
+    "coords": [
+      185.66666666666666, 
+      148.0
+    ], 
+    "connections": [
+      {
+        "destination": "Farragut West", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Metro Center", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.901316, 
+      -77.033652
+    ]
+  }, 
+  {
+    "name": "Federal Triangle", 
+    "coords": [
+      196.33333333333334, 
+      179.55555555555554
+    ], 
+    "connections": [
+      {
+        "destination": "Metro Center", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Smithsonian", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.893757, 
+      -77.028218
+    ]
+  }, 
+  {
+    "name": "Smithsonian", 
+    "coords": [
+      196.33333333333334, 
+      189.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Federal Triangle", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "L'Enfant Plaza", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.888022, 
+      -77.028232
+    ]
+  }, 
+  {
+    "name": "Federal Center SW", 
+    "coords": [
+      238.55555555555554, 
+      200.88888888888889
+    ], 
+    "connections": [
+      {
+        "destination": "L'Enfant Plaza", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Capitol South", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.884958, 
+      -77.01586
+    ]
+  }, 
+  {
+    "name": "Capitol South", 
+    "coords": [
+      255.8888888888889, 
+      200.88888888888889
+    ], 
+    "connections": [
+      {
+        "destination": "Federal Center SW", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Eastern Market", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.884968,-77.005137]
+  }, 
+  {
+    "name": "Eastern Market", 
+    "coords": [
+      264.3333333333333, 
+      198.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Capitol South", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Potomac Ave", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.884124, 
+      -76.995334
+    ]
+  }, 
+  {
+    "name": "Potomac Ave", 
+    "coords": [
+      271.44444444444446, 
+      191.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Eastern Market", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Stadium-Armory", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.880841, 
+      -76.985721
+    ]
+  }, 
+  {
+    "name": "Minnesota Ave", 
+    "coords": [
+      310.55555555555554, 
+      178.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Stadium-Armory", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Deanwood", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.898284, 
+      -76.948042
+    ]
+  }, 
+  {
+    "name": "Deanwood", 
+    "coords": [
+      318.55555555555554, 
+      170.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Minnesota Ave", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Cheverly", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.907734, 
+      -76.936177
+    ]
+  }, 
+  {
+    "name": "Cheverly", 
+    "coords": [
+      326.55555555555554, 
+      162.22222222222223
+    ], 
+    "connections": [
+      {
+        "destination": "Deanwood", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Landover", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.91652, 
+      -76.915427
+    ]
+  }, 
+  {
+    "name": "Landover", 
+    "coords": [
+      334.55555555555554, 
+      154.66666666666666
+    ], 
+    "connections": [
+      {
+        "destination": "Cheverly", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "New Carrollton", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.934411, 
+      -76.890988
+    ]
+  }, 
+  {
+    "name": "New Carrollton", 
+    "coords": [
+      342.55555555555554, 
+      146.66666666666666
+    ], 
+    "connections": [
+      {
+        "destination": "Landover", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.947674, 
+      -76.872144
+    ]
+  }, 
+  {
+    "name": "Benning Road", 
+    "coords": [
+      324.77777777777777, 
+      190.66666666666666
+    ], 
+    "connections": [
+      {
+        "destination": "Stadium-Armory", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Capitol Heights", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.890488, 
+      -76.938291
+    ]
+  }, 
+  {
+    "name": "Capitol Heights", 
+    "coords": [
+      334.55555555555554, 
+      190.66666666666666
+    ], 
+    "connections": [
+      {
+        "destination": "Benning Road", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Addison Road-Seat Pleasant", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.889757,-76.913382]
+  }, 
+  {
+    "name": "Addison Road-Seat Pleasant", 
+    "coords": [
+      343.8888888888889, 
+      191.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Capitol Heights", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Morgan Boulevard", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.886713, 
+      -76.893592
+    ]
+  }, 
+  {
+    "name": "Morgan Boulevard", 
+    "coords": [
+      353.6666666666667, 
+      191.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Addison Road-Seat Pleasant", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Largo Town Center", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.8913, 
+      -76.8682
+    ]
+  }, 
+  {
+    "name": "Largo Town Center", 
+    "coords": [
+      363.44444444444446, 
+      191.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Morgan Boulevard", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.9008, 
+      -76.8449
+    ]
+  }, 
+  {
+    "name": "Arlington Cemetery", 
+    "coords": [
+      146.11111111111111, 
+      216.88888888888889
+    ], 
+    "connections": [
+      {
+        "destination": "Rosslyn", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Pentagon", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.884574, 
+      -77.063108
+    ]
+  }, 
+  {
+    "name": "Van Dorn Street", 
+    "coords": [
+      133.66666666666666, 
+      320.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "King St-Old Town", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Franconia-Springfield", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null, 
+    "latlon": [
+      38.799193, 
+      -77.129407
+    ]
+  }, 
+  {
+    "name": "Franconia-Springfield", 
+    "coords": [
+      116.77777777777777, 
+      341.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Van Dorn Street", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": false, 
+    "visible": null,
+    "latlon": [38.766129, -77.168797]
+  }, 
+  {
+    "name": "Metro Center", 
+    "coords": [
+      196.33333333333334, 
+      165.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Farragut North", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": false
+      }, 
+      {
+        "destination": "Gallery Pl-Chinatown", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "FN-MC", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "McPherson Square", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Federal Triangle", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.898303, 
+      -77.028099
+    ]
+  }, 
+  {
+    "name": "Gallery Pl-Chinatown", 
+    "coords": [
+      223.0, 
+      165.77777777777777
+    ], 
+    "connections": [
+      {
+        "destination": "Metro Center", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Judiciary Square", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Mt Vernon Sq 7th St-Convention Center", 
+        "lines": [
+          "green",
+          "yellow" 
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Archives-Navy Memorial-Penn Quarter", 
+        "lines": [
+          "green",
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.89834, 
+      -77.021851
+    ]
+  }, 
+  {
+    "name": "Rosslyn", 
+    "coords": [
+      123.0, 
+      166.66666666666666
+    ], 
+    "connections": [
+      {
+        "destination": "Court House", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Arlington Cemetery", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Foggy Bottom-GWU", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.896595, 
+      -77.07146
+    ]
+  }, 
+  {
+    "name": "East Falls Church", 
+    "coords": [
+      68.77777777777777, 
+      180.44444444444446
+    ], 
+    "connections": [
+      {
+        "destination": "McLean", 
+        "lines": [
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "West Falls Church-VT/UVA", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Ballston-MU", 
+        "lines": [
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.885841, 
+      -77.157177
+    ]
+  }, 
+  {
+    "name": "Stadium-Armory", 
+    "coords": [
+      286.1111111111111, 
+      188.0
+    ], 
+    "connections": [
+      {
+        "destination": "Potomac Ave", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Minnesota Ave", 
+        "lines": [
+          "orange"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Benning Road", 
+        "lines": [
+          "blue",
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.88594, 
+      -76.977485
+    ]
+  }, 
+  {
+    "name": "L'Enfant Plaza", 
+    "coords": [
+      223.0, 
+      200.88888888888889
+    ], 
+    "connections": [
+      {
+        "destination": "Archives-Navy Memorial-Penn Quarter", 
+        "lines": [
+          "green",
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Pentagon", 
+        "lines": [
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Waterfront", 
+        "lines": [
+          "green"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Smithsonian", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Federal Center SW", 
+        "lines": [
+          "blue",
+          "orange", 
+          "silver"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.884775, 
+      -77.021964
+    ]
+  }, 
+  {
+    "name": "Pentagon", 
+    "coords": [
+      165.22222222222223, 
+      243.11111111111111
+    ], 
+    "connections": [
+      {
+        "destination": "Arlington Cemetery", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "L'Enfant Plaza", 
+        "lines": [
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Pentagon City", 
+        "lines": [
+          "yellow",
+          "blue"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.869349, 
+      -77.054013
+    ]
+  }, 
+  {
+    "name": "King St-Old Town", 
+    "coords": [
+      187.0, 
+      309.3333333333333
+    ], 
+    "connections": [
+      {
+        "destination": "Braddock Road", 
+        "lines": [
+          "yellow",
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Van Dorn Street", 
+        "lines": [
+          "blue"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Eisenhower Avenue", 
+        "lines": [
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.806474, 
+      -77.061115
+    ]
+  }, 
+  {
+    "name": "Fort Totten", 
+    "coords": [
+      235.8888888888889, 
+      96.44444444444444
+    ], 
+    "connections": [
+      {
+        "destination": "Takoma", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Brookland-CUA", 
+        "lines": [
+          "red"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "Georgia Ave-Petworth", 
+        "lines": [
+          "green",
+          "yellow"
+        ], 
+        "drawn": true
+      }, 
+      {
+        "destination": "West Hyattsville", 
+        "lines": [
+          "green",
+          "yellow"
+        ], 
+        "drawn": true
+      }
+    ], 
+    "transfer": true, 
+    "visible": null, 
+    "latlon": [
+      38.951777, 
+      -77.002174
+    ]
+  }
+]
